@@ -91,13 +91,13 @@ dp = dencity pixel 30dp = 300px in android exc pt, px
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn_webview_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@color/colorAccent"
-        android:text="Button 1"/>
+        android:text="Button Pindah ke Webview Activity"/>
 
     <Button
         android:id="@+id/btn2"
@@ -116,6 +116,15 @@ dp = dencity pixel 30dp = 300px in android exc pt, px
         android:layout_marginTop="20dp"
         android:background="@color/colorAccent"
         android:text="Button 3"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:text="Button Recycler View"/>
 
     <TextView
         android:id="@+id/tv1"
